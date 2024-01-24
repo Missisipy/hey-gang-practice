@@ -1,4 +1,4 @@
-package chapter3;
+package CH3_ТипыДанныхПеременныеМассивы;
 
 // Задача: Работа с температурой
 // Напишите прогу, кот принимает три значения температур
@@ -7,7 +7,7 @@ package chapter3;
 
 import java.util.Scanner;
 
-public class ТипыДанныхПеременныеМассивы1 {
+public class WorkWithTemp {
 
     public static double TempF(double x){
         return (x * (9 / 5)) + 32;

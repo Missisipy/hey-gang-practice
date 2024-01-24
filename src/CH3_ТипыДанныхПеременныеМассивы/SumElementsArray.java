@@ -1,4 +1,4 @@
-package chapter3;
+package CH3_ТипыДанныхПеременныеМассивы;
 
 // Задача: Подсчёт суммы элементов массива
 // Напишите прогу, которая принимает массив целых чисел
@@ -6,7 +6,7 @@ package chapter3;
 
 import java.util.Scanner;
 
-public class ТипыДанныхПеременныеМассивы2 {
+public class SumElementsArray {
 
     public static int Sum(int[] x) {
 
@@ -27,14 +27,14 @@ public class ТипыДанныхПеременныеМассивы2 {
 
         int size = scanner.nextInt();
 
-        int[] array = new int[size];
+        int[] Arr = new int[size];
 
         for (int i = 0; i < size; i++){
 
             System.out.print("Введите " + (i + 1) + " элемент массива: ");
-            array[i] = scanner.nextInt();
+            Arr[i] = scanner.nextInt();
         }
 
-        System.out.println(Sum(array));
+        System.out.println(Sum(Arr));
     }
 }
